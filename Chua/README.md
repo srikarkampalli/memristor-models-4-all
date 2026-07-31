@@ -8,7 +8,7 @@ This memristor model was built in LTSpice and was based on the theoretical frame
 
 The .lib file contains the SPICE models for the electronic components used in the memristor realization, and are based off of datasheets on the Internet that I found. If you look at Chua_Design_LTSpice, there is a potentiometer with the wiper constantly adjusted to change memristor behavior.
 
-Although this is an impractical memristor emulator (since then, companies like Knowm and HP Labs), it's still historically important. The voltage source stayed true to the paper, with a 10V amplitude at 63 Hz.
+Although this is an impractical memristor emulator (since then, companies like Knowm and HP Lab have made physical memristors), it's still historically important. The voltage source stayed true to the paper, with a 10V amplitude at 63 Hz.
 
 ## Sources
 
