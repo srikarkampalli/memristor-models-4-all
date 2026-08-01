@@ -1,0 +1,20 @@
+* --- Original 1971 Chua Paper Transistors ---
+* NPN Transistors
+.MODEL 2N4239 NPN(IS=1.2f XTI=3 EG=1.11 VAF=80 BF=60 IKF=0.4 XTB=1.5 RC=0.8 CJC=15p MJC=0.33 VJC=0.75 CJE=35p MJE=0.33 VJE=0.75 TR=50n TF=0.8n RB=15)
+
+* PNP Transistors
+.MODEL 2N4236 PNP(IS=1.5f XTI=3 EG=1.11 VAF=60 BF=50 IKF=0.5 XTB=1.5 RC=1.0 CJC=18p MJC=0.35 VJC=0.75 CJE=40p MJE=0.35 VJE=0.75 TR=70n TF=1.1n RB=15)
+
+* --- Original 1971 Chua Paper JFETs ---
+* N-Channel JFETs
+.MODEL 2N3819 NJF(VTO=-3.0 BETA=1.3m LAMBDA=2.25m CGD=4.5p CGS=4.5p PB=1 IS=10f)
+
+* P-Channel JFETs
+.MODEL 2N5464 PJF(VTO=-3.5 BETA=600u LAMBDA=10m CGD=5.0p CGS=5.0p PB=0.75 IS=100f)
+
+* --- Original 1971 Diodes ---
+* Standard Diodes 
+.MODEL 1N4148 D(IS=0.1p RS=16 CJO=2p TT=12n BV=100 IBV=0.1p)
+
+* Zener Diodes 
+.MODEL 1N4728 D(IS=1.0f RS=10 BV=3.3 IBV=1.0m NBV=1.0)
